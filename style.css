@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: #ff7aa2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Phone frame */
+.phone {
+  width: 100%;
+  max-width: 390px;
+  aspect-ratio: 9 / 16;
+  background-color: #ff7aa2;
+  border-radius: 30px;
+  box-shadow: 0 0 40px rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Card */
+.container {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  width: 90%;
+  max-width: 320px;
+}
+
+.success {
+  display: none;
+}
+
+h1 {
+  color: #ff3366;
+}
+
+.message {
+  color: #ff3366;
+  font-size: 18px;
+  min-height: 24px;
+}
+
+img {
+  width: 100%;
+  max-width: 220px;
+  border-radius: 15px;
+  margin: 15px 0;
+}
+
+/* Buttons area */
+.buttons {
+  position: relative;
+  height: 140px;
+}
+
+/* Buttons */
+button {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+#yesBtn {
+  background-color: #ff3366;
+  color: white;
+}
+
+#noBtn {
+  background-color: #ddd;
+  color: #333;
+  position: absolute;
+}
